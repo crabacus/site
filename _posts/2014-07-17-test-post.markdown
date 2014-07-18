@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "test post"
+date:   2014-07-17 18:59:40
+categories: jekyll update
+---
+hello this is a post
