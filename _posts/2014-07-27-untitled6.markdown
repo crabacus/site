@@ -1,0 +1,8 @@
+---
+layout: post
+date:   2014-07-27 10:06:00
+categories: blog
+tags: [chiptune, milkytracker, loop]
+files: [untitled6.xm]
+---
+I made a loop

@@ -1,6 +1,13 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
+@import "reset";
+
+@import "fa/font-awesome";
+
+@import "colors";
+@import "fonts";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,18 +16,24 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Open Sans, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: #f2f2f2;
+  color: $GREY;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: $DARK_ORANGE; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: $ORANGE; }
+a {
+  color: $DARK_ORANGE;
+  text-decoration: none;
+}
+a:hover {
+  color: $DARK_GREY;
+  text-decoration: none;
+}
 
 /* Utility */
 
@@ -33,3 +46,9 @@ a:visited { color: $ORANGE; }
   margin: 0 auto;
   zoom: 1;
 }
+
+@import "layout";
+@import "content";
+@import "media_queries";
+
+@import "posts";

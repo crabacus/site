@@ -7,21 +7,21 @@
   // border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: $DARK_GREY;
+  background-color: $DARK_RED;
 }
 
 .site-logo {
   float: left;
   margin-right: 10px;
+  height: 56px;
 }
 
 .site-title,
-.site-title:hover,
-.site-title:visited {
-  font-family: 'Roboto Slab', serif;
-  display: block;
+.site-title:hover {
+  display: none;
+  // display: block;
   color: $ORANGE;
-  font-size: 26px;
+  font-size: 23px;
   letter-spacing: -1px;
   float: left;
   line-height: 56px;
@@ -30,19 +30,20 @@
 }
 
 .site-nav {
-  font-family: 'Arial', sans-serif;
   float: right;
   line-height: 56px;
   font-size: 14px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: $ORANGE;
   letter-spacing: -.5px;
+  i {
+    margin-right: 0.5rem;
+  }
 }
 
 /* Site footer */
@@ -50,6 +51,10 @@
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
+  background-color: $DARK_RED;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer-heading {

@@ -1,0 +1,12 @@
+- title: Untitled1
+  id: untitled1
+  file: untitled1.xm
+  path: /music/blog/
+  finished: false
+  version: 0.1
+- title: Untitled2
+  id: untitled2
+  file: untitled2.xm
+  path: /music/blog/
+  finished: false
+  version: 0.1

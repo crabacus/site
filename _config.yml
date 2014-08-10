@@ -1,7 +1,7 @@
 # Site settings
 title: crabacus
-email: blah@blah.com
-description: "Yayyyy. Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: "crabacus 6 [at] gmail.com"
+description: "This is my website where I post music that I make. ^^"
 baseurl: ""
 url: "http://yourdomain.com"
 github_username:  crabacus
@@ -10,4 +10,5 @@ github_username:  crabacus
 markdown: kramdown
 permalink: pretty
 
-exclude: [sass]
+sass:
+    sass_dir: _sass
